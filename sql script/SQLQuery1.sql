@@ -90,4 +90,3 @@ select e.ename,
 	   d.dlocation,
 	   e.deptno
 from employee as e left join dept as d on e.deptno = d.deptno
-	left join customer as c on 
